@@ -6,5 +6,4 @@ modId = "${mod_id}"
 version = "${mod_version}"
 displayName = "${mod_name}"
 authors = "${mod_authors}"
-Credits = "Thanks to Dev for teaching me how to do this, and thanks to KaupenJoe for his Java and modding tutorials for Minecraft!"
 description = '''${mod_description}'''
