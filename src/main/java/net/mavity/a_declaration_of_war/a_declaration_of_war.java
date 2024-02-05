@@ -52,6 +52,9 @@ public class a_declaration_of_war
         if(event.getTabKey() == CreativeModeTabs.COMBAT) {
             event.accept(ModItems.A_Knife);
         }
+        if(event.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
+            event.accept(ModItems.Key);
+        }
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call
