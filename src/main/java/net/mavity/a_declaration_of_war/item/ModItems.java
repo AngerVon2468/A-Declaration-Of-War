@@ -16,6 +16,9 @@ public class ModItems {
             () -> new SwordItem(Tiers.IRON, 2, -2.4f,
                     new Item.Properties()));
 
+    public static final DeferredItem<Item> Key = ITEMS.register("key",
+            () -> new Item(new Item.Properties()));
+
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }
