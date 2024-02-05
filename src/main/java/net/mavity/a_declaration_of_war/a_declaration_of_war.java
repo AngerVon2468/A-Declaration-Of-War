@@ -1,7 +1,9 @@
 package net.mavity.a_declaration_of_war;
 
 import com.mojang.logging.LogUtils;
+import net.mavity.a_declaration_of_war.item.ModItems;
 import net.minecraft.client.Minecraft;
+import net.minecraft.world.item.CreativeModeTabs;
 import net.neoforged.api.distmarker.Dist;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.bus.api.SubscribeEvent;
@@ -23,6 +25,9 @@ public class a_declaration_of_war
     private static final Logger LOGGER = LogUtils.getLogger();
     public a_declaration_of_war(IEventBus modEventBus)
     {
+
+        ModItems.register(modEventBus);
+
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
 
@@ -44,7 +49,9 @@ public class a_declaration_of_war
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event)
     {
-
+        if(event.getTabKey() == CreativeModeTabs.COMBAT) {
+            event.accept(ModItems.A_Knife);
+        }
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call
