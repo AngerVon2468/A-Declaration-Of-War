@@ -1,0 +1,10 @@
+git push -u ADECLARATIONOFWAR master -f
+
+                ^^^
+            Use that to
+            publish the
+            mod updates
+            to github..
+            Make sure to
+            run it in cmd
+            not intellij
