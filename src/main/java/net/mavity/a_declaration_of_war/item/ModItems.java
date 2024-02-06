@@ -16,6 +16,14 @@ public class ModItems {
             () -> new SwordItem(Tiers.IRON, 2, -2.4f,
                     new Item.Properties()));
 
+    public static final DeferredItem<Item> ODM_GEAR_HANDLE = ITEMS.register("odm_gear_handle",
+            () -> new SwordItem(Tiers.DIAMOND, 5, -2.4f,
+                    new Item.Properties()));
+
+    public static final DeferredItem<Item> ODM_GEAR_HANDLE_NS = ITEMS.register("odm_gear_handle_ns",
+            () -> new SwordItem(Tiers.WOOD, 0, -2.4f,
+                    new Item.Properties()));
+
     public static final DeferredItem<Item> Key = ITEMS.register("key",
             () -> new Item(new Item.Properties()));
 
