@@ -2,5 +2,7 @@
   "item.a_declaration_of_war.a_knife": "Knife",
   "item.a_declaration_of_war.key": "Cellar Key",
   "item.a_declaration_of_war.odm_gear_handle": "ODM Gear Handle (With Blade)",
-  "item.a_declaration_of_war.odm_gear_handle_ns": "ODM Gear Handle (No Blade)"
+  "item.a_declaration_of_war.odm_gear_handle_ns": "ODM Gear Handle (No Blade)",
+  "advancements.adecofwar.title": "A Declaration Of War",
+  "advancements.adecofwar.descr": "Play Minecraft with this mod active"
 }
