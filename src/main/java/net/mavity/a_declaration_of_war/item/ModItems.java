@@ -21,7 +21,7 @@ public class ModItems {
                     new Item.Properties()));
 
     public static final DeferredItem<Item> ODM_GEAR_HANDLE_NS = ITEMS.register("odm_gear_handle_ns",
-            () -> new SwordItem(Tiers.WOOD, 0, -2.4f,
+            () -> new SwordItem(Tiers.STONE, 0, -2.4f,
                     new Item.Properties()));
 
     public static final DeferredItem<Item> Key = ITEMS.register("key",
