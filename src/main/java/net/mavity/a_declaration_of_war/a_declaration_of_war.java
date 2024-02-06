@@ -51,6 +51,8 @@ public class a_declaration_of_war
     {
         if(event.getTabKey() == CreativeModeTabs.COMBAT) {
             event.accept(ModItems.A_Knife);
+            event.accept(ModItems.ODM_GEAR_HANDLE);
+            event.accept(ModItems.ODM_GEAR_HANDLE_NS);
         }
         if(event.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
             event.accept(ModItems.Key);
